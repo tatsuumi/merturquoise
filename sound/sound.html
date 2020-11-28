@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"　name="apple-mobile-web-app-capable" content="default">
+<title>Insert title here</title>
+<style>
+body
+{
+	background-color:#EEEEEE;
+}
+p
+{
+margin-left:10px;
+}
+input#submit
+{
+	margin:30px;
+	WIDTH: 250px;
+	HEIGHT: 80px;
+	font-size:30px;
+	background:#0000FF;
+	border:none;
+}
+</style>
+</head>
+<body>
+今は録音に下記コマンドを打ってください<br>
+<br>
+arecord -f S16_LE  -D hw:0,0 -t wav | lame -b 256 -m s - /var/www/html/sound/test.mp3
+<br>
+<br>
+
+    <form action="./record.php" method="post">
+    <input type="submit" id='submit' value="RECORD">
+    </form>
+
+<audio src="../sound/test.mp3" controls loop></audio>
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"　name="apple-mobile-web-app-capable" content="default">
+<title>Insert title here</title>
+<style>
+body
+{
+	background-color:#AAAAAA;
+}
+input#submit
+{
+	margin:30px;
+	WIDTH: 250px;
+	HEIGHT: 80px;
+	font-size:35px;
+}
+input#channel
+{
+	margin:30px;
+	WIDTH: 250px;
+	HEIGHT: 80px;
+	color:black;
+	background:#1010FF;
+	border:yellow;
+	font-size:50px;
+}
+input#power
+{
+	margin:30px;
+	WIDTH: 250px;
+	HEIGHT: 80px;
+	color:white;
+	background:#FF0000;
+	border:red;
+	font-size:50px;
+}
+input#dir
+{
+	margin:30px;
+	WIDTH: 250px;
+	HEIGHT: 80px;
+	color:white;
+	background:#00BF00;
+	border:red;
+	font-size:50px;
+}
+p
+{
+margin-left:10px;
+}
+textarea
+{
+margin:20px;
+width:900px;
+font-size:30px;
+}
+</style>
+</head>
+<body>
+<!-- <a href="./command.php">CPU</a> --><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="13">
+<input type="submit" id='power' value="Power">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="14">
+<input type="submit" id='submit' value="input">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="15">
+<input type="submit" id='submit' value="tool">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="1">
+<input type="submit" id='channel' value="1">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="2">
+<input type="submit" id='channel' value="2">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="3">
+<input type="submit" id='channel' value="3">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="4">
+<input type="submit" id='channel' value="4">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="5">
+<input type="submit" id='channel' value="5">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="6">
+<input type="submit" id='channel' value="6">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="7">
+<input type="submit" id='channel' value="7">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="8">
+<input type="submit" id='channel' value="8">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="9">
+<input type="submit" id='channel' value="9">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="10">
+<input type="submit" id='channel' value="10">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="11">
+<input type="submit" id='channel' value="11">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="12">
+<input type="submit" id='channel' value="12">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="16">
+<input type="submit"id='submit' value="DAIKIN on">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="17">
+<input type="submit" id='dir' value="Up">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="18">
+<input type="submit" id='submit' value="Records">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="19">
+<input type="submit" id='dir' value="Left">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="20">
+<input type="submit" id='dir' value="OK">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="21">
+<input type="submit" id='dir' value="Right">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="22">
+<input type="submit" id='submit' value="back">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="23">
+<input type="submit" id='dir' value="Down">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="24">
+<input type="submit" id='submit' value="end">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="25">
+<input type="submit" id='submit' value="table">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="26">
+<input type="submit" id='submit' value="VOL+">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="27">
+<input type="submit" id='submit' value="VOL-">
+</form>
+</div><br>
+
+<div style="display: inline-flex;">
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="28">
+<input type="submit" id='submit' value="YOUTUBE">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="29">
+<input type="submit" id='submit' value="NETFLIX">
+</form>
+<form action="./command.php" method="post">
+<input type="hidden" name="channel" value="30">
+<input type="submit" id='submit' value="DAIKIN off">
+</form>
+</div><br>
+</body>
+</html>

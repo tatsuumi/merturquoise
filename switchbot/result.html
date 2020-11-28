@@ -1,0 +1,18 @@
+<html>
+<head>
+<style>
+.big{ font-size: 50px; }
+</style>
+</head>
+<body>
+aas
+<p class="big">
+    <?php
+     $cmd ="cd /home/pi/python-host ; python switchbot.py DE:AF:53:1C:C8:83 Press";
+     echo exec($cmd);
+     ?>
+</p>
+
+</body>
+</html>
+

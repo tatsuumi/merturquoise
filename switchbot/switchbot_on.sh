@@ -1,0 +1,1 @@
+sudo python switchbot.py DE:AF:53:1C:C8:83 Press

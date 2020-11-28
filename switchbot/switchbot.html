@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"　name="apple-mobile-web-app-capable" content="default">
+<title>Insert title here</title>
+<style>
+body
+{
+	background-color:#EEEEEE;
+}
+input#submit
+{
+	margin-top:300px;
+	WIDTH: 750px;
+	HEIGHT: 240px;
+	font-size:100px;
+	text-align: center; 
+	background:#FFFFFF;
+	color:#EE0000;
+	text-align: center;
+
+}
+input#submit:active
+{
+	margin-top:300px;
+	WIDTH: 750px;
+	HEIGHT: 240px;
+	background:#FFFFFF;
+	border:none;
+	font-size:100px;
+	text-align: center;
+}
+.inner{
+	text-align: center; 
+}
+</style>
+</head>
+<body>
+
+  <div class="inner">
+    <form action="./switchbot.php" method="post">
+    <input type="hidden" name="on" value="on">
+    <input type="submit" id='submit' value="Switch On!!">
+    </form>
+  </div>
+
+</body>
+</html>
